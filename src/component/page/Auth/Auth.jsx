@@ -7,7 +7,6 @@ import './Auth.css';
 const Auth = () => {
     const dispatch = useDispatch();
     const {loading}=useSelector((state)=>state.authReducer);
-    // console.log("Hello loading",loading);
     const [isSignUp, setIsSignUp] = useState(true);
     const [data, setData] = useState({
         firstName: "",
